@@ -4,21 +4,36 @@ const styles = StyleSheet.create({
   imgContainer: {
     flex: 1,
     flexDirection: 'row',
+    justifyContent: 'center',
     flexWrap: 'wrap',
     marginTop: 10
   },
   imgbuttonContainer: {
-    width: 100,
-    height: 100,
+    width: 110,
+    height: 110,
     margin: 10
   },
   imgbuttonImagem: {
     flex: 1,
     resizeMode: 'cover',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    justifyContent: 'flex-end',
+    alignItems: 'center'
   },
-  imgbuttonProduto: {},
-  imgbuttonValor: {}
+  ImageButtonTextWrap: {
+    backgroundColor: '#fff',
+    marginTop: 5,
+    marginBottom: 5,
+    padding: 5
+  },
+  imgbuttonProduto: {
+    fontSize: 10,
+    flexWrap: 'wrap'
+  },
+  imgbuttonValor: {
+    fontSize: 8,
+    flexWrap: 'wrap'
+  }
 })
 
 export default styles
